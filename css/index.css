@@ -1,0 +1,98 @@
+@font-face{
+    font-family: 'iconfont';
+    src: url('../iconfont/iconfont.eot');
+    src: url('../iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../iconfont/iconfont.woff2') format('woff2'),
+        url('../iconfont/iconfont.woff') format('woff'),
+        url('../iconfont/iconfont.ttf') format('truetype'),
+        url('../iconfont/iconfont.svg#iconfont') format('svg');
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    a{
+        text-decoration: none; /*去掉文本的装饰属性，包括超链接的下划线*/
+    }
+    select input{ /*把浏览器默认的select样式进行归零*/
+        border: none;
+        outline: none;
+    }
+    .wrap{
+        position: relative;
+        width: 1000px;
+        margin: 0 auto;/*水平居中的div*/
+    }
+    .top{
+        height: 30px;
+        background-color: #f5f5f5;
+    } 
+    .header{
+        height: 92px;
+    } 
+    .nav{
+        height: 36px;
+        background-color: #60bff2;
+    }
+    .banner{
+        width: 802px;
+        height: 414px;
+        margin: 0 auto;/*banner没有用wrap包裹*/
+        padding: 9px 0 0 198px;
+    }
+    .banner-slider{
+        float: left;
+        width: 544px;
+        height: 414px;
+        background-color: #8edff3;
+    }
+    .banner-search{
+        float: right;
+        width: 250px;
+        height: 255px;
+        background-color: #fafafa;
+    }
+    .banner-help{
+        float: right;
+        width: 250px;
+        height: 146px;
+        margin-top: 12px;
+        background-color: #fafafa;
+    }
+    .content{
+        position: relative;
+        width: 1000px;
+        margin: 0 auto;/*水平居中的div*/
+        padding: 10px 0 38px 0;
+    }
+    .clearfix::after {
+        content: ' ';
+        display: block;
+        height: 0px;
+        clear: both;
+        zoom: 1;
+    }
+    .content-tab{
+        float: left;
+        width: 742px;
+        height: 490px;
+        background-color: #eee;
+    }
+
+    .content-news,
+    .content-close{
+        float: right;
+        width: 248px;
+        height: 236px;
+        border:1px solid #ccc;
+        background-color: #ccc;
+    } 
+    .content-close{
+        margin-top: 12px;
+    }
+    .footer{
+        height: 70px;
+        line-height: 70px;
+        padding: 25px 0;
+        background-color: #eceef2;
+    }

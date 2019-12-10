@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- 加上这句话之后，可以根据不同手机屏幕宽度直接设计网站 
+        但是如果实际元素的宽度大于了手机屏幕宽度，屏幕任然会产生缩放
+        
+    -->
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/top.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/banner.css">
+    <link rel="stylesheet" href="./css/content.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <title>统一挂号平台</title>
+</head>
+
+<body>
+    <!-- 
+        top 
+        header 
+        nav(nav-menu) 
+        banner(banner-slider banner-search banner-help) 
+        content(tab news close) 
+        footer
+    -->
+    <div class="top">
+        <div class="wrap clearfix">
+            <p class="call"><span class="tel">&#xe66e;</span> tel-15927515768</p>
+            <p class="welcome">欢迎来到城市预约平台 请
+                &nbsp; &nbsp;
+                <a href="#">登录</a>
+                &nbsp;
+                <a href="#">注册</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#">帮助中心</a>
+            </p>
+        </div>
+    </div>
+    <div class="header">
+        <div class="wrap clearfix">
+            <p class="header-logo"><span class="header-iconfont">&#xe60d;</span> <span
+                    class="logo-font">北京市预约挂号统一平台</span></p>
+            <p class="header-search"></p>
+        </div>
+    </div>
+    <div class="nav">
+        <div class="wrap clearfix">
+            <div class="link menu">全部科室
+                <div class="menu-list"></div>
+            </div>
+            <a href="#" class="link">按医院挂号</a>
+            <a href="#" class="link">按科室挂号</a>
+            <a href="#" class="link">按疾病挂号</a>
+            <a href="#" class="link">最新公告</a>
+            <a href="#" class="link right">社会知名医院</a>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="banner-slider">slider</div>
+        <div class="banner-search">
+            <p class="search-title"><span class="search-icon">&#xe617;</span>快速预约</p>
+            <div class="form">
+                <div class="form-list">
+                    <select name="area" id="">
+                        <option value="">医院地区</option>
+                    </select>
+                </div>
+                <div class="form-list">
+                    <select name="level" id="">
+                        <option value="">医院等级</option>
+                    </select>
+                </div>
+                <div class="form-list">
+                    <select name="name" id="">
+                        <option value="">医院名称</option>
+                    </select>
+                </div>
+                <div class="form-list">
+                    <select name="department" id="">
+                        <option value="">医院科室</option>
+                    </select>
+                </div>
+                <div class="form-list submit">
+                    <input type="button" name="" id="" class="button" value="快速查询">
+                </div>
+            </div>
+        </div>
+        <div class="banner-help">
+            <div class="caption"><span class="icon-help">&#xe623;</span>帮助中心</div>
+            <div class="link link1">账号指南</div>
+            <div class="link link2">预约指南</div>
+            <div class="link link3">账号找回</div>
+            <div class="link link4">常见问题</div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="wrap clearfix">
+            <div class="content-tab">
+                <p class="tab-caption">
+                    <a href="#" class="caption-a caption-focus">医院</a>
+                    <a href="#" class="caption-a">科室</a>
+                </p>
+                <div class="tab-item1">
+                    <div class="item-caption">
+                        <ul>
+                            <li class="item-caption-focus">全部</li>
+                            <li>东城区</li>
+                            <li>西城区</li>
+                            <li>朝阳区</li>
+                            <li>丰台区</li>
+                            <li>石景山区</li>
+                            <li>海淀区</li>
+                            <li>门头沟区</li>
+                            <li>房山区</li>
+                            <li>其他</li>
+                        </ul>
+                    </div>
+                    <div class="item-content">
+                        <div class="item-content-picture">
+                            <div class="listpicture">
+                                <img src="./image/hospital.jpeg" alt="xx医院" width="150px" height="80px;" class="listpicture-img">
+                                <p>北京协和医院北京协和医院北京协和医院北京协和医院北京协和医院</p>
+                            </div>
+                            <div class="listpicture">
+                                <img src="./image/hospital.jpeg" alt="xx医院" width="150px" height="80px;" class="listpicture-img">
+                                <p>北京协和医院北京协和医院北京协和医院北京协和医院北京协和医院</p>
+                            </div>
+                            <div class="listpicture">
+                                <img src="./image/hospital.jpeg" alt="xx医院" width="150px" height="80px;" class="listpicture-img">
+                                <p>北京协和医院北京协和医院北京协和医院北京协和医院北京协和医院</p>
+                            </div>
+                            <div class="listpicture">
+                                <img src="./image/hospital.jpeg" alt="xx医院" width="150px" height="80px;" class="listpicture-img">
+                                <p>北京协和医院北京协和医院北京协和医院北京协和医院北京协和医院</p>
+                            </div>
+                        </div>
+                        <div class="item-content-font">
+                            <a href="#" class="font-a">首都儿科研究所附属儿童医院<span>[三级甲等]</span></a>
+                            <a href="#" class="font-a">首都儿科研究所附属儿童医院<span>[三级甲等]</span></a>
+                            <a href="#" class="font-a">首都儿科研究所附属儿童医院<span>[三级甲等]</span></a>
+                            <a href="#" class="font-a">首都儿科研究所附属儿童医院<span>[三级甲等]</span></a>
+                            <a href="#" class="font-a">首都儿科研究所附属儿童医院<span>[三级甲等]</span></a>
+                            <a href="#" class="font-a">首都儿科研究所附属儿童医院<span>[三级甲等]</span></a>
+                        </div>
+
+                        <div class="item-footer">更多医院</div>
+                    </div>
+
+                </div>
+                <div class="tab-item2"></div>
+            </div>
+            <div class="content-news">
+                <p class="news-caption">最新公告 <a class="news-more" href="#">| 更多</a></p>
+                <dl class="news-list">
+                    <dt>1</dt>
+                    <dd>医院门诊公告</dd>
+                    <dt>2</dt>
+                    <dd>户外遇到人羊癫疯了怎么办</dd>
+                    <dt>3</dt>
+                    <dd>冬天游泳对身体是好是坏</dd>
+                    <dt>4</dt>
+                    <dd>冬天游泳对身体是好是坏</dd>
+                    <dt>5</dt>
+                    <dd>冬天游泳对身体是好是坏</dd>
+                    <dt>6</dt>
+                    <dd>冬天游泳对身体是好是坏</dd>
+                </dl>
+            </div>
+            <div class="content-close">
+                <p class="close-caption">停诊公告 <a class="close-more" href="#">| 更多</a></p>
+                <dl class="close-list">
+                    <dt>1</dt>
+                    <dd>医院门诊公告</dd>
+                    <dt>2</dt>
+                    <dd>户外遇到人羊癫疯了怎么办</dd>
+                    <dt>3</dt>
+                    <dd>冬天游泳对身体是好是坏</dd>
+                    <dt>4</dt>
+                    <dd>冬天游泳对身体是好是坏</dd>
+                    <dt>5</dt>
+                    <dd>冬天游泳对身体是好是坏</dd>
+                    <dt>6</dt>
+                    <dd>冬天游泳对身体是好是坏</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="wrap clearfix">
+            <footer class="footer-footer">copyright @ 2019 慕课网版权所有</footer>
+        </div>
+    </div>
+</body>
+
+</html>

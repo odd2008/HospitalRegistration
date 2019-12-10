@@ -1,0 +1,25 @@
+.header-logo{
+    width: 402px;
+    height: 74px;
+    padding: 9px 0;
+    line-height: 74px;
+    /* background-color: antiquewhite; */
+}
+.header-iconfont{
+    font-family: 'iconfont';
+    font-size: 50px;
+}
+.logo-font{
+    vertical-align: 17px;  /*修改font图标和字体不对齐样式*/
+    margin-left: 12px;
+    font-weight: bold;
+    color: #9370D8;
+}
+.header-search{
+    position: absolute;
+    right: 0;
+    top: 29px;
+    width: 326px;
+    height: 38px;
+    background-color: orange;
+}

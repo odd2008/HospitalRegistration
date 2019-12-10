@@ -1,0 +1,11 @@
+一 需求分析
+二 项目开发
+    1)模块分析
+        首页分为
+        top 
+        header 
+        nav(nav-menu) 
+        banner(banner-slider banner-search banner-help) 
+        content(tab news close) 
+        footer
+    2)html+css完成静态页面样式开发
